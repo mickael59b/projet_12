@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// Importer les fichiers CSS de Bootstrap et autres bibliothèques
+import './assets/vendor/bootstrap/css/bootstrap.min.css';
+import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
+import './assets/vendor/aos/aos.css';
+import './assets/vendor/swiper/swiper-bundle.min.css';
+import './assets/vendor/glightbox/css/glightbox.min.css';
+// Votre fichier CSS principal
+import './assets/css/main.css'; // Import du fichier CSS principal
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
